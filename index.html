@@ -7,26 +7,71 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
   <style>
+    body{
+        background-color: red;
+        width: 80%;
+        margin: auto;
+    }
+
+    .blocks {
+      border: 2px solid #ffffff;
+      padding: 10px; 
+      margin: 5px;
+      color: yellow;
+    }
+
     h1 {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: xx-large;
+        color: white;
+        text-align: center;
     }
 
-    .paragraph {
-        color: palegreen;
-        text-decoration: line-through;
-        text-decoration-color: blue;
+    h2 {
+      color: white;
     }
 
-    #myspan {
-        background-color: yellowgreen;
-        margin-left: 10em;
+    #lockimg {
+      width: 30%;
+      height: 30%;
+    }
+    
+    .stuff {
+      display: flex;
     }
 
+    .chunk {
+      margin-top: 5%;
+    }
   </style>
+
 </head>
 
 <body>
+    <h1>******All your files are LOCKED!******</h1>
+
+    <div class="stuff">
+      <img id="lockimg" src= "lock.png" alt="lock icon">
+
+      <div class="chunk">
+        <div class="blocks">
+          <h2>What happened?</h2>
+          <ul>
+            <li>All files on this computer are encrypted.</li>
+            <li>All backups have been deleted.</li>
+            <li>Method: Asymetric AES-256 encryption.</li>
+          </ul>
+        </div>
+
+        <div class="blocks">
+          <h2>What do I need to do?</h2>
+          <li>The only way to recover your data is to subscribe to Tech Two on YouTube.</li>
+          <li>Click the button bellow to visit the Tech Two YouTube channel page.</li>
+          <li>Once on the channel page, click Subscribe.</li>
+          <li>Once completed, files will be decrypted within 12 hours.</li>
+        </div>
+      </div>
+    </div>
+
+    <a href="https://www.youtube.com/@techtw0" class="button-link">Tech Two Channel</a>
 
 </body>
 
